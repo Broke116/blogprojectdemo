@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% for blog in blogs %}
+<div class="blog">
+  <div class="blog-subject">
+    <div class="title"><a href="/blog/{{blog.key().id()}}">{{ blog.subject }}</a></div>
+    <div class="date">{{ blog.created.strftime("%b %d, %Y") }}</div>
+  </div>
+  <div class="blog-content">
+    {{ blog.content }}
+  </div>
+</div>
+{% endfor %}
+
+{% endblock %}

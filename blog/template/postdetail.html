@@ -1,0 +1,9 @@
+<div class="blog">
+  <div class="blog-subject">
+    <div class="title">{{ blog.subject }}</div>
+    <div class="date">{{ blog.created.strftime("%b %d, %Y") }}</div>
+  </div>
+  <div class="blog-content">
+    {{ blog.content }}
+  </div>
+</div>

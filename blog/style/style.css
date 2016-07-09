@@ -1,0 +1,74 @@
+body {
+  font-family: sans-serif;
+  width: 1000px;
+  margin:0 auto;
+  padding:10px;
+}
+
+.error {
+  color: red;
+}
+
+label {
+  display:  block;
+  font-size: 20px;
+  margin:0 0 5px 0;
+}
+
+input[type=text]{
+  width:400px;
+  font-size:20px;
+  padding:2px;
+}
+
+input[type=submit]{
+  height:30px;
+  font-size:16px;
+  color:#fff;
+  background-color:#337ab7;
+  border-color:1px #2e6da4;
+}
+
+textarea {
+  width:400px;
+  height:200px;
+  font-size:17px;
+}
+
+.header{
+  text-align: center;
+}
+
+.subject{
+  margin:0 0 10px 0;
+}
+
+.blog-post{
+  margin:0 0 10px 0;
+}
+
+.error {
+  color: red;
+}
+
+.blog-subject {
+  border-bottom: 2px solid #CCC;
+}
+
+.blog-subject .title{
+  font-weight: bold;
+  float:left;
+}
+
+.blog-subject .title a {
+  color: black;
+  text-decoration: none;
+}
+
+.blog-subject .date {
+  margin: 0 0 0 10px;
+}
+
+.blog-content {
+  margin:10px 0 0 0;
+}
